@@ -19,11 +19,19 @@ README.md template for my projects
 
 ## Installation
 
-...
+Install with npm
+
+```sh
+npm i some-package
+```
 
 ## Usage
 
-...
+Run the script
+
+```sh
+some-command
+```
 
 ## NodeJS scripts
 
@@ -39,9 +47,6 @@ README.md template for my projects
 - test:phpunit - see [PHP unit testing](#php-unit-testing)
 - e2e - see [E2E testing](#e2e-testing)
 - build - see [Production](#production)
-- release - see [Release a new version](#release-a-new-version)
-- sync:ubiquitous-components - see [Sync Ubiquitous Components](#sync-ubiquitous-components)
-- sync:verum-php - see [Sync Verum PHP](#sync-verum-php)
 
 ## Development
 
@@ -129,25 +134,12 @@ Builds the app for production into the `public` folder.
 yarn build
 ```
 
-## Release a new version
-
-```sh
-yarn release
-git push --follow-tags
-```
-
 ## Utilities
 
-### Sync Ubiquitous Components
+### Sync some package
 
 ```sh
-yarn sync:ubiquitous-components
-```
-
-### Sync Verum PHP
-
-```sh
-yarn sync:verum-php
+yarn sync:some-package
 ```
 
 ## Contributing
